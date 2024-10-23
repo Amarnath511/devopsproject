@@ -1,0 +1,20 @@
+name: GitHub Pages Deployment
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # This token is automatically provided by GitHub Actions
+        publish_dir: ./  # The directory containing the site (in this case, root)
