@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    background-color: #f0f8ff; /* Light blue */
-    color: #333; /* Default text color */
+    background-color: #f0f8ff; 
+    color: #333; 
 }
 
 header {
-    background-color: #1c1c1c; /* Black */
+    background-color:#007BFF; 
     color: white;
     padding: 20px;
     animation: fadeIn 1s ease-in;
@@ -26,13 +26,13 @@ h1 {
     box-sizing: border-box;
     text-align: center;
     padding: 10px 0;
-    background-color: #007BFF; /* Bright blue for contrast */
+    background-color: #10ffff; 
     border-radius: 4px;
 }
 
 .marquee p {
     display: inline-block;
-    animation: marquee 10s linear infinite;
+    animation: marquee 15s linear infinite;
     margin: 0;
     font-size: 1.2em;
 }
@@ -52,21 +52,21 @@ main {
 }
 
 section {
-    background-color: white; /* White section background */
+    background-color: white; 
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    max-width: 600px; /* Centered with max width */
+    max-width: 600px; 
 }
 
 h2 {
-    color: #007BFF; /* Bright blue for headings */
+    color: #007BFF; 
 }
 
 p {
     font-size: 1.1em;
-    color: #666;
+    color: #000000;
 }
 
 footer {
